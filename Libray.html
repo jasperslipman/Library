@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+    
+    <link rel="stylesheet" type="text/css" href="Library.css">
+</head>
+<body>
+    <div id="BookDisplay">
+        <form id="bookForm">
+            <input type="text" id="titleForm" name="title" placeholder="Title" required>
+            <input type="text" id="authorForm" name="author" placeholder="Author" required>
+            <input type="number" id="pagesForm" name="pages" placeholder="Pages" required>
+            <label for="readForm">Have you read this?</label>
+            <input type="checkbox" id="readForm" name="read">
+            <button type="submit" id="bookSubmit">Add Book</button>
+        </form>
+
+        <form id="displayBooks"> 
+            <button type="button" id="displayBooksButton">Display Books</button>
+        </form>
+    </div>
+    
+    <script src="Library.js"></script>
+</body>
+</html>
